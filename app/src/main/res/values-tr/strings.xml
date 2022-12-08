@@ -1,10 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">new app</string>
+    <string name="app_name">yeni bir uygulama</string>
     <string name="login">Login</string>
     <string name="email">Email</string>
     <string name="hint_email">saleh@gmail.com</string>
-    <string name="phone_number">Phone Number</string>
-    <string name="hint_phone">0597589150</string>
+
 
     <string-array name="student">
         <item>Ahmed</item>

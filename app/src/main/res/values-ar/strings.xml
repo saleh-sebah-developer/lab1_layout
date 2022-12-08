@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تطبيق جديد</string>
+    <string name="login">تسجيل دخول</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="hint_email">saleh@gmail.com</string>
+
+
+    <string-array name="student">
+        <item>أحمد</item>
+        <item>علي</item>
+        <item>محمد</item>
+        <item>عمر</item>
+    </string-array>
+</resources>

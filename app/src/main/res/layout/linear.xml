@@ -21,8 +21,8 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="4dp"
         android:fontFamily="@font/amaranth"
-        android:text="login"
-        android:textColor="#000000"
+        android:text="@string/email"
+        android:textColor="@color/ali"
         android:textSize="22sp"
         android:textStyle="bold" />
 
@@ -32,7 +32,8 @@
         android:layout_marginStart="12sp"
         android:layout_marginTop="14sp"
         android:text="email"
-        android:textColor="#000000"
+        style="@style/button"
+        android:textColor="@color/ali"
         android:textSize="18sp" />
 
     <EditText
