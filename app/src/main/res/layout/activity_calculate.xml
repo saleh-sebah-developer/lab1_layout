@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Calculate">
+
+    <EditText
+        android:id="@+id/calculate_et_first_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="First Number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/calculate_et_second_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Second Number"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/calculate_btn_sum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sum" />
+
+    <TextView
+        android:id="@+id/calculate_tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result: "
+        android:textSize="32sp" />
+</LinearLayout>

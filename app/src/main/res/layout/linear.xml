@@ -8,10 +8,10 @@
     android:orientation="vertical">
 
     <ImageView
-        android:layout_width="150dp"
-        android:layout_height="100dp"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_100sdp"
         android:layout_gravity="center"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="@dimen/_12sdp"
         android:src="@drawable/ic_launcher_background"
         tools:srcCompat="@tools:sample/avatars" />
 
@@ -23,7 +23,7 @@
         android:fontFamily="@font/amaranth"
         android:text="@string/email"
         android:textColor="@color/ali"
-        android:textSize="22sp"
+        android:textSize="@dimen/_22ssp"
         android:textStyle="bold" />
 
     <TextView
